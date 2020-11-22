@@ -1,0 +1,21 @@
+body {
+    background: #022c43;
+}
+
+.jumbotron {
+    color: #ffd700;
+    background-color: black;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.employee-card {
+    border-color: #ffd700;
+    border-width: 1px !important;
+    background-color: black;
+    color: #ffd700;
+}
+
+.list-group-item {
+    background-color: #115173;
+}
