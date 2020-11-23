@@ -4,26 +4,26 @@ Emily Herman
 | MSU Coding Bootcamp Homework 10
 | Due date: 11/22/2020
 
-CONTENTS:
-lib/  
-  Employee.js
-  Engineer.js
-  htmlRenderer.js
-  Intern.js
-  Manager.js         
-output/  
-  style.css      
-templates/
-  engineer.html
-  intern.html
-  main.html
-  manager.html     
-test/          
-  Employee.test.js
-  Engineer.test.js
-  Intern.test.js
-  Manager.test.js
-app.js 
+CONTENTS: <br/>
+lib/ <br/> 
+    | Employee.js <br/>
+  	| Engineer.js <br/>
+  	| htmlRenderer.js <br/>
+  	| Intern.js <br/>
+  	| Manager.js <br/>        
+output/ <br/>
+  	| style.css <br/>    
+templates/ <br/>
+  	| engineer.html <br/>
+  	| intern.html <br/>
+  	| main.html <br/>
+  	| manager.html <br/>     
+test/ <br/>        
+  	| Employee.test.js <br/> 
+ 	 	| Engineer.test.js <br/> 
+  	| Intern.test.js <br/> 
+  	| Manager.test.js <br/> 
+app.js  
 package.json       
 
 INSTALLATION:
