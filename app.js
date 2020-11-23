@@ -94,7 +94,6 @@ function employeeObjects() {
             .then(answers => {
                 var newManager = new Manager(answers.name, answers.Id, answers.email, answers.officeNumber);
                 employees.push(newManager);
-                console.log(employees);
                 addEmployee(askAgain);
             })
         ;
@@ -103,7 +102,6 @@ function employeeObjects() {
                 .then(answers => {
                     var newEngineer = new Engineer(answers.name, answers.Id, answers.email, answers.github);
                     employees.push(newEngineer);
-                    console.log(employees);
                     addEmployee(askAgain);
                 })
             ;
@@ -112,7 +110,6 @@ function employeeObjects() {
                 .then(answers => {
                     var newIntern = new Intern(answers.name, answers.Id, answers.email, answers.school);
                     employees.push(newIntern);
-                    console.log(employees)
                     addEmployee(askAgain);
                 })
             ;
@@ -128,8 +125,6 @@ employeeObjects();
 // `output` folder. You can use the variable `outputPath` above to target this location.
 // Hint: you may need to check if the `output` folder exists and create it if it
 // does not.
-
-
 
 // HINT: each employee type (manager, engineer, or intern) has slightly different
 // information; write your code to ask different questions via inquirer depending on
