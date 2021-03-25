@@ -1,4 +1,4 @@
-# HW-10_Employee_Profile_Generator
+# Employee_Profile_Generator
 
 Emily Herman 
 | MSU Coding Bootcamp Homework 10
